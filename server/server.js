@@ -9,5 +9,5 @@ PORT=5000
 connectDatabase();
 
 const server= app.listen(PORT,()=>{
-    console.log(`server is working on http://localhost ${PORT}`)
+    console.log(`server is working on http://localhost:${PORT}`)
 })
